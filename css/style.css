@@ -150,12 +150,11 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
   }
  
   /*Requirement 16*/
   .price {
-    align-items: flex-end;
+    align-self: flex-end;
   }
   /*Requirement 17*/
   .package{
