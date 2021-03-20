@@ -141,8 +141,6 @@ header{
   /*Requirement 14*/
   nav {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
   }
   /*Requirement 15*/
   .nav_links{
@@ -150,6 +148,7 @@ header{
     justify-content: space-between;
 
   }
+ 
   /*Requirement 16*/
   .price {
     align-items: flex-end;
@@ -161,9 +160,12 @@ header{
   }
   /*Requirement 18*/
   #gallery{
-    visibility: hidden;
+    display: none;
   }
 
- 
+  .gallery{
+    display: none;
+  }
+
 }
 
