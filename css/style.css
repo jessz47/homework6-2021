@@ -22,6 +22,7 @@ header{
   display: flex;
   flex-direction: column;
   
+  
 }
 
 /*Requirement 4*/
@@ -58,7 +59,7 @@ header{
   flex-wrap: wrap;
   flex-direction: row;
   min-height: 600px;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
 }
 
