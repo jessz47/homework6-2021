@@ -55,11 +55,11 @@ header{
 /*Requirement 7*/
 .gallery{
   display: flex;
-  min-height: 600px;
-  align-items: center;
   flex-wrap: wrap;
-    /*Your code here again.*/
-
+  flex-direction: row;
+  min-height: 600px;
+  justify-items: center;
+  align-items: center;
 }
 
 /*Requirement 8*/
